@@ -1,5 +1,5 @@
 /* Sets the style for the main navbar. */
-.bk-primary-nav-menu {
+.bk-primary-nav, .bk-primary-nav-menu {
   color: yellow !important;
   background-color: darkgreen !important;
   font-family: "Andale Mono" !important;
