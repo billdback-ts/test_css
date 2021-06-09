@@ -2,6 +2,7 @@
 .bk-primary-nav-menu {
   color: yellow !important;
   background-color: darkgreen !important;
+  font-family: "Andale Mono" !important;
 }
 
 /* Example from the doc. Sets the color of buttons, such as the "Go" button.
