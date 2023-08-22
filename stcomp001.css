@@ -1,0 +1,8 @@
+/* Testing hiding of buttons in edit view. */
+button-module__sizeM.button-module__buttonWithText {
+  background-color: "pink";
+}
+
+button[track-id=track-id="answer_query-info-icon"] {
+  background-color: green;
+}
