@@ -1,5 +1,5 @@
 /* Testing hiding of buttons in edit view. */
-button-module__sizeM.button-module__buttonWithText {
+button {
   background-color: "pink";
 }
 
