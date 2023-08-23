@@ -4,6 +4,6 @@
   background-color: pink;
 }
 
-button[track-id=track-id="answer_query-info-icon"] {
-  background-color: purple;
+button[data-testid='query-visualizer-btn'] {
+  display: none;
 }
