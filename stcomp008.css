@@ -1,0 +1,16 @@
+/* Testing hiding of buttons in edit view. */
+
+.button-module__sizeM.button-module__buttonWithText {
+  /* background-color: pink; */ /* Test setting to see that the css is being loaded. */ 
+}
+
+/* Hides the buttons with the specific values.  
+ * Note that the <div> isn't hidden so values in the middle will result in uneven spacing. 
+*/
+div button[data-testid='query-visualizer-btn'] {
+  display: none;
+}
+
+div button[data-testid='action-selector-nav-btn'] {
+  display: none;
+}
