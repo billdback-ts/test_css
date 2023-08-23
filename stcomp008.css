@@ -6,7 +6,7 @@
 
 /* Hides the buttons with the specific values.  
  * Note that the <div> isn't hidden so values in the middle will result in uneven spacing. 
-*/
+ */
 div button[data-testid='query-visualizer-btn'] {
   display: none;
 }
