@@ -2,7 +2,7 @@
   /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
   --ts-var-root-background: yellow;
   --ts-var-root-color: #1d232f;
-  --ts-var-root-font-family: Arsenal SC, Poppins, sans-serif;
+  --ts-var-root-font-family: 'Arsenal SC', Poppins, sans-serif;
 }
 
 @font-face {
@@ -10,8 +10,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap&subset=latin")
-    format("woff2");
+  src: url("https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2&subset=latin") format("woff2");
 }
 
 @font-face {
