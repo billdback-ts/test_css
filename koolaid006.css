@@ -2,11 +2,11 @@
   /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
   --ts-var-root-background: yellow;
   --ts-var-root-color: #1d232f;
-  --ts-var-root-font-family: Ga Maamli, Poppins, sans-serif;
+  --ts-var-root-font-family: Ga-Maamli, Poppins, sans-serif;
 }
 
 @font-face {
-  font-family: "Ga Maamli";
+  font-family: "Ga-Maamli";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
