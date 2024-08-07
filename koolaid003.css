@@ -2,7 +2,7 @@
   /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
   --ts-var-root-background: yellow;
   --ts-var-root-color: #1d232f;
-  --ts-var-root-font-family: Edu Australia VIC WA NT Hand, sans-serif;
+  --ts-var-root-font-family: Edu Australia VIC WA NT Hand, Poppins, sans-serif;
 }
 
 @font-face {
