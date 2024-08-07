@@ -10,7 +10,23 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap") format("woff2");
+  src: url("https://fonts.gstatic.com/s/arsenalsc/v1/x3dlckLHea6e5BEtsfxibN0msgTvDQM.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Arsenal SC;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/arsenalsc/v1/x3dmckLHea6e5BEtsfxiZGYDpynNACkxE2c.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Arsenal SC;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/arsenalsc/v1/x3dlckLHea6e5BEtsfxibNAmsgTvDQMLGg.woff2") format("woff2");
 }
 
 @font-face {
