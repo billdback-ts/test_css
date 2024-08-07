@@ -2,24 +2,15 @@
   /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
   --ts-var-root-background: yellow;
   --ts-var-root-color: #1d232f;
-  --ts-var-root-font-family: 'Ga-Maamli', Poppins, sans-serif;
+  --ts-var-root-font-family: Arsenal SC, Poppins, sans-serif;
 }
 
 @font-face {
-  font-family: "Ga-Maamli";
+  font-family: Arsenal SC;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap&subset=latin")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "Ga-Maamli";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap&subset=latin")
+  src: url("href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap&subset=latin")
     format("woff2");
 }
 
