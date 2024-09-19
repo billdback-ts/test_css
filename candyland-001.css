@@ -1,0 +1,133 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFD1DC; /* Light pink background */
+  --ts-var-root-color: #800080; /* Deep purple text color */
+  --ts-var-root-font-family: 'Brush Script MT', cursive; /* Script font for elegance */
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: initial;
+  --ts-var-application-color: #FF69B4; /* Hot pink */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFB6C1; /* Light pink */
+  --ts-var-nav-background: #FF69B4; /* Hot pink background */
+  --ts-var-search-data-button-background: #FFB6C1; /* Light pink */
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #800080; /* Deep purple */
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: normal;
+  --ts-var-search-bar-background: #FFF0F5; /* Lavender blush */
+  --ts-var-search-auto-complete-background: #FFB6C1; /* Light pink */
+  --ts-var-search-navigation-button-background: #FFB6C1;
+  --ts-var-search-bar-navigation-help-text-background: #FFB6C1;
+  --ts-var-search-bar-auto-complete-hover-background: #FF69B4; /* Hot pink */
+  --ts-var-search-auto-complete-font-color: #800080;
+  --ts-var-search-auto-complete-subtext-font-color: #FF1493; /* Deep pink */
+
+  /* Data and edit panels on Answer page */
+  --ts-var-answer-data-panel-background-color: #FFE4E1; /* Misty Rose */
+  --ts-var-answer-edit-panel-background-color: #FF69B4; /* Hot pink */
+
+  /* Buttons */
+  /* Application-wide button design for main buttons */
+  --ts-var-button-border-radius: 10px;
+
+  /* Application-wide button design for smaller buttons */
+  --ts-var-button--icon-border-radius: 10px;
+
+  /* Primary buttons */
+  --ts-var-button--primary-color: #FFFFFF; /* White text */
+  --ts-var-button--primary-background: #FF69B4; /* Hot pink background */
+  --ts-var-button--primary--hover-background: #C71585; /* Darker hover color */
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  /* Secondary buttons */
+  --ts-var-button--secondary-color: #800080; /* Deep purple */
+  --ts-var-button--secondary-background: #FFB6C1; /* Light pink */
+  --ts-var-button--secondary--hover-background: #FF69B4; /* Hot pink */
+  --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
+
+  /* Tertiary buttons */
+  --ts-var-button--tertiary-color: #800080; /* Deep purple */
+  --ts-var-button--tertiary-background: #FFD1DC; /* Light pink */
+  --ts-var-button--tertiary--hover-background: #FFB6C1; /* Light pink */
+
+  /* Natural Language Search panel */
+  --ts-var-sage-bar-header-background-color: var(--ts-var-root-color);
+  --ts-var-source-selector-background-color: #FFE4E1; /* Misty Rose */
+  --ts-var-sage-search-box-font-color: #800080; /* Deep purple */
+  --ts-var-sage-search-box-background-color: #FFF0F5; /* Lavender blush */
+  --ts-var-sage-embed-background-color: #FFE4E1; /* Misty Rose */
+  --ts-var-sage-seed-questions-background: #FFB6C1; /* Light pink */
+  --ts-var-sage-seed-questions-font-color: #800080; /* Deep purple */
+  --ts-var-sage-seed-questions-hover-background: #FF69B4; /* Hot pink */
+
+  /* Chart selection widget */
+  --ts-var-answer-chart-select-background: #FFE4E1; /* Misty Rose */
+  --ts-var-answer-chart-hover-background: #FFB6C1; /* Light pink */
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #FFB6C1; /* Light pink */
+  --ts-var-liveboard-cross-filter-layout-background: #FFF0F5; /* Lavender blush */
+
+  /* Visualizations and answers */
+  /* Title text */
+  --ts-var-viz-title-color: #FF1493; /* Deep pink */
+  --ts-var-viz-title-font-family: 'Brush Script MT', cursive;
+  --ts-var-viz-title-text-transform: capitalize;
+
+  /* Subtitle and description text */
+  --ts-var-viz-description-color: #DB7093; /* Pale violet red */
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: capitalize;
+
+  /* Visualization tile customization */
+  --ts-var-viz-border-radius: 20px;
+  --ts-var-viz-box-shadow: 2px 4px 6px #FF69B4; /* Hot pink shadow */
+  --ts-var-viz-background: #FFE4E1; /* Misty Rose */
+  --ts-var-viz-legend-hover-background: #FFB6C1; /* Light pink */
+
+  /* Filter chips */
+  --ts-var-chip-border-radius: 25pt;
+  --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-chip-box-shadow: initial;
+  --ts-var-chip-background: #FFB6C1; /* Light pink */
+  --ts-var-chip-color: var(--ts-var-root-color);
+  --ts-var-chip--hover-background: #FF69B4; /* Hot pink */
+  --ts-var-chip--hover-color: var(--ts-var-root-color);
+  --ts-var-chip--active-background: #C71585; /* Darker active background */
+  --ts-var-chip--active-color: #FFFFFF; /* White text */
+
+  /* Axis titles and labels */
+  --ts-var-axis-title-color: var(--ts-var-root-color);
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-axis-data-label-color: #800080; /* Deep purple */
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+
+  /* Menu components */
+  --ts-var-menu-color: var(--ts-var-root-color);
+  --ts-var-menu-background: #FFB6C1; /* Light pink */
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: capitalize;
+  --ts-var-menu--hover-background: #FF69B4; /* Hot pink */
+
+  /* Dialogs and modals */
+  --ts-var-dialog-body-background: var(--ts-var-root-background);
+  --ts-var-dialog-body-color: var(--ts-var-root-color);
+  --ts-var-dialog-header-background: #FFB6C1; /* Light pink */
+  --ts-var-dialog-header-color: var(--ts-var-root-color);
+  --ts-var-dialog-footer-background: var(--ts-var-root-background);
+
+  /* Segment control */
+  --ts-var-segment-control-hover-background: #FF69B4; /* Hot pink */
+
+  /* Modular Homepage */
+  --ts-var-home-watchlist-selected-text-color: #FF1493; /* Deep pink */
+  --ts-var-home-card-color: var(--ts-var-root-color);
+  --ts-var-home-favorite-suggestion-card-text-color: #FF1493; /* Deep pink */
+  --ts-var-home-favorite-suggestion-card-background: #FFE4E1; /* Misty Rose */
+  --ts-var-home-favorite-suggestion-card-icon-color: #800080; /* Deep purple */
+}
