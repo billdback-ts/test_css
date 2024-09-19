@@ -33,27 +33,30 @@
 
   /* Buttons */
   /* Application-wide button design for main buttons. For example, Search data */
-  --ts-var-button-border-radius: 5px;
+  --ts-var-button-border-radius: 10px; /* Increased from 5px to 10px */
 
   /* Application-wide button design for smaller buttons. For example, buttons with share and favorite icons */
-  --ts-var-button--icon-border-radius: 5px;
+  --ts-var-button--icon-border-radius: 10px; /* Increased from 5px to 10px */
 
   /* Primary buttons: For example, the Go button in the search bar, the Pin and Save buttons on the Search page */
   --ts-var-button--primary-color: #FFFFFF; /* White text */
   --ts-var-button--primary-background: #228B22; /* Forest green */
   --ts-var-button--primary--hover-background: #006400; /* Darker green */
   --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+  --ts-var-button--primary-border-radius: 10px; /* Added for primary buttons */
 
   /* Secondary buttons. For example, the Edit and Explore buttons on the Liveboard page */
   --ts-var-button--secondary-color: #0D4015; /* Dark green */
   --ts-var-button--secondary-background: #98FB98; /* Pale green */
   --ts-var-button--secondary--hover-background: #32CD32; /* Lime green, darker */
   --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
+  --ts-var-button--secondary-border-radius: 10px; /* Added for secondary buttons */
 
   /* Tertiary buttons. For example, the Undo, Redo buttons on the Search page */
   --ts-var-button--tertiary-color: #0D4015; /* Dark green */
   --ts-var-button--tertiary-background: #FFFFFF; /* White */
   --ts-var-button--tertiary--hover-background: #E0F8E0; /* Very light green */
+  --ts-var-button--tertiary-border-radius: 10px; /* Added for tertiary buttons */
 
   /* Natural Language Search panel */
   --ts-var-sage-bar-header-background-color: var(--ts-var-root-color);
