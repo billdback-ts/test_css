@@ -1,0 +1,133 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFF8E1; /* Light orange background */
+  --ts-var-root-color: #BF360C; /* Dark orange text color */
+  --ts-var-root-font-family: 'Helvetica', 'Arial', sans-serif;
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: #E65100;
+  --ts-var-application-color: #FF6F00;
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFF3E0; /* Very light orange */
+  --ts-var-nav-background: #FB8C00; /* Medium orange */
+  --ts-var-search-data-button-background: #FFE0B2; /* Light orange */
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation, and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #BF360C; /* Dark orange */
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: normal;
+  --ts-var-search-bar-background: #FFE0B2; /* Light orange */
+  --ts-var-search-auto-complete-background: #FFF3E0; /* Very light orange */
+  --ts-var-search-navigation-button-background: #FFE0B2;
+  --ts-var-search-bar-navigation-help-text-background: #FFE0B2;
+  --ts-var-search-bar-auto-complete-hover-background: #FFCC80; /* Darker on hover */
+  --ts-var-search-auto-complete-font-color: #BF360C;
+  --ts-var-search-auto-complete-subtext-font-color: #BF360C;
+
+  /* Data and edit panels on Answer page */
+  --ts-var-answer-data-panel-background-color: initial;
+  --ts-var-answer-edit-panel-background-color: #FFE0B2;
+
+  /* Buttons */
+  /* Application-wide button design for main buttons */
+  --ts-var-button-border-radius: 5px;
+
+  /* Application-wide button design for smaller buttons */
+  --ts-var-button--icon-border-radius: 5px;
+
+  /* Primary buttons */
+  --ts-var-button--primary-color: #FFFFFF; /* White text */
+  --ts-var-button--primary-background: #FB8C00; /* Medium orange */
+  --ts-var-button--primary--hover-background: #F57C00; /* Darker orange on hover */
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  /* Secondary buttons */
+  --ts-var-button--secondary-color: #BF360C; /* Dark orange */
+  --ts-var-button--secondary-background: #FFE0B2; /* Light orange */
+  --ts-var-button--secondary--hover-background: #FFCC80; /* Darker on hover */
+  --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
+
+  /* Tertiary buttons */
+  --ts-var-button--tertiary-color: #BF360C;
+  --ts-var-button--tertiary-background: #FFFFFF; /* White background */
+  --ts-var-button--tertiary--hover-background: #FFE0B2; /* Light orange on hover */
+
+  /* Natural Language Search panel */
+  --ts-var-sage-bar-header-background-color: var(--ts-var-root-color);
+  --ts-var-source-selector-background-color: initial;
+  --ts-var-sage-search-box-font-color: initial;
+  --ts-var-sage-search-box-background-color: initial;
+  --ts-var-sage-embed-background-color: initial;
+  --ts-var-sage-seed-questions-background: initial;
+  --ts-var-sage-seed-questions-font-color: initial;
+  --ts-var-sage-seed-questions-hover-background: initial;
+
+  /* Chart selection widget on answers and visualization pages */
+  --ts-var-answer-chart-select-background: initial;
+  --ts-var-answer-chart-hover-background: initial;
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #FFE0B2; /* Light orange */
+  --ts-var-liveboard-cross-filter-layout-background: #FFF3E0; /* Very light orange */
+
+  /* Visualizations and answers */
+  /* Title text */
+  --ts-var-viz-title-color: #E65100; /* Dark orange */
+  --ts-var-viz-title-font-family: 'Helvetica', 'Arial', sans-serif;
+  --ts-var-viz-title-text-transform: capitalize;
+
+  /* Subtitle and description text */
+  --ts-var-viz-description-color: #F57C00; /* Medium orange */
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: capitalize;
+
+  /* Visualization tile customization on the Liveboard page */
+  --ts-var-viz-border-radius: 15px;
+  --ts-var-viz-box-shadow: 1px 2px 5px #888888;
+  --ts-var-viz-background: #FFE0B2; /* Light orange */
+  --ts-var-viz-legend-hover-background: #FFCC80; /* Darker on hover */
+
+  /* Filter chips on answers and visualization pages */
+  --ts-var-chip-border-radius: 25pt;
+  --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-chip-box-shadow: initial;
+  --ts-var-chip-background: #FFB74D; /* Medium orange */
+  --ts-var-chip-color: var(--ts-var-root-color);
+  --ts-var-chip--hover-background: #FFA726; /* Darker on hover */
+  --ts-var-chip--hover-color: var(--ts-var-root-color);
+  --ts-var-chip--active-background: #F57C00; /* Darker orange */
+  --ts-var-chip--active-color: #FFFFFF;
+
+  /* Axis titles and labels */
+  --ts-var-axis-title-color: var(--ts-var-root-color);
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-axis-data-label-color: #BF360C; /* Dark orange */
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+
+  /* Menu components */
+  --ts-var-menu-color: var(--ts-var-root-color);
+  --ts-var-menu-background: #FFE0B2; /* Light orange */
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: capitalize;
+  --ts-var-menu--hover-background: #FFCC80; /* Darker on hover */
+
+  /* Dialogs and modals */
+  --ts-var-dialog-body-background: var(--ts-var-root-background);
+  --ts-var-dialog-body-color: var(--ts-var-root-color);
+  --ts-var-dialog-header-background: #FFCC80; /* Medium light orange */
+  --ts-var-dialog-header-color: var(--ts-var-root-color);
+  --ts-var-dialog-footer-background: var(--ts-var-root-background);
+
+  /* Segment control */
+  --ts-var-segment-control-hover-background: #F57C00; /* Darker orange on hover */
+
+  /* Modular Homepage (New experience) */
+  --ts-var-home-watchlist-selected-text-color: #BF360C; /* Dark orange */
+  --ts-var-home-card-color: var(--ts-var-root-color);
+  --ts-var-home-favorite-suggestion-card-text-color: #BF360C;
+  --ts-var-home-favorite-suggestion-card-background: #FFF3E0; /* Very light orange */
+  --ts-var-home-favorite-suggestion-card-icon-color: #BF360C;
+}
