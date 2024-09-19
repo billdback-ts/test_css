@@ -1,0 +1,133 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #1a1a2e; /* Dark blue background */
+  --ts-var-root-color: #e94560; /* Neon pink text color */
+  --ts-var-root-font-family: 'Orbitron', sans-serif; /* Futuristic sans-serif font */
+  --ts-var-root-text-transform: uppercase;
+  --ts-var-root-secondary-color: #0f3460; /* Deep blue secondary color */
+  --ts-var-application-color: #e94560; /* Neon pink */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #1a1a2e; /* Dark background */
+  --ts-var-nav-background: #16213e; /* Slightly lighter dark blue */
+  --ts-var-search-data-button-background: #16213e;
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: var(--ts-var-root-color);
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-text-font-style: normal;
+  --ts-var-search-bar-background: #0f3460; /* Deep blue */
+  --ts-var-search-auto-complete-background: #16213e;
+  --ts-var-search-navigation-button-background: #16213e;
+  --ts-var-search-bar-navigation-help-text-background: #16213e;
+  --ts-var-search-bar-auto-complete-hover-background: #53354a; /* Dark purple */
+  --ts-var-search-auto-complete-font-color: var(--ts-var-root-color);
+  --ts-var-search-auto-complete-subtext-font-color: #a3d2ca; /* Soft cyan */
+
+  /* Data and edit panels on Answer page */
+  --ts-var-answer-data-panel-background-color: #0f3460;
+  --ts-var-answer-edit-panel-background-color: #16213e;
+
+  /* Buttons */
+  /* Application-wide button design for main buttons */
+  --ts-var-button-border-radius: 0px;
+
+  /* Application-wide button design for smaller buttons */
+  --ts-var-button--icon-border-radius: 0px;
+
+  /* Primary buttons */
+  --ts-var-button--primary-color: #1a1a2e; /* Dark text */
+  --ts-var-button--primary-background: #e94560; /* Neon pink */
+  --ts-var-button--primary--hover-background: #b4161b; /* Darker neon pink */
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  /* Secondary buttons */
+  --ts-var-button--secondary-color: #1a1a2e; /* Dark text */
+  --ts-var-button--secondary-background: #a3d2ca; /* Soft cyan */
+  --ts-var-button--secondary--hover-background: #5eaaa8; /* Darker cyan */
+  --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
+
+  /* Tertiary buttons */
+  --ts-var-button--tertiary-color: #e94560; /* Neon pink */
+  --ts-var-button--tertiary-background: #16213e; /* Dark blue */
+  --ts-var-button--tertiary--hover-background: #0f3460; /* Deep blue */
+
+  /* Natural Language Search panel */
+  --ts-var-sage-bar-header-background-color: #16213e;
+  --ts-var-source-selector-background-color: #0f3460;
+  --ts-var-sage-search-box-font-color: var(--ts-var-root-color);
+  --ts-var-sage-search-box-background-color: #16213e;
+  --ts-var-sage-embed-background-color: #1a1a2e;
+  --ts-var-sage-seed-questions-background: #16213e;
+  --ts-var-sage-seed-questions-font-color: #a3d2ca; /* Soft cyan */
+  --ts-var-sage-seed-questions-hover-background: #53354a;
+
+  /* Chart selection widget on answers and visualization pages */
+  --ts-var-answer-chart-select-background: #16213e;
+  --ts-var-answer-chart-hover-background: #53354a;
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #16213e;
+  --ts-var-liveboard-cross-filter-layout-background: #1a1a2e;
+
+  /* Visualizations and answers */
+  /* Title text */
+  --ts-var-viz-title-color: #e94560; /* Neon pink */
+  --ts-var-viz-title-font-family: 'Orbitron', sans-serif;
+  --ts-var-viz-title-text-transform: uppercase;
+
+  /* Subtitle and description text */
+  --ts-var-viz-description-color: #a3d2ca; /* Soft cyan */
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: uppercase;
+
+  /* Visualization tile customization on the Liveboard page */
+  --ts-var-viz-border-radius: 0px;
+  --ts-var-viz-box-shadow: 0px 0px 15px #e94560; /* Neon pink shadow */
+  --ts-var-viz-background: #16213e;
+  --ts-var-viz-legend-hover-background: #53354a;
+
+  /* Filter chips on answers and visualization pages */
+  --ts-var-chip-border-radius: 0px;
+  --ts-var-chip-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-chip-box-shadow: none;
+  --ts-var-chip-background: #e94560; /* Neon pink */
+  --ts-var-chip-color: #1a1a2e; /* Dark text */
+  --ts-var-chip--hover-background: #b4161b; /* Darker neon pink */
+  --ts-var-chip--hover-color: #1a1a2e;
+  --ts-var-chip--active-background: #900c3f; /* Dark maroon */
+  --ts-var-chip--active-color: #ffffff; /* White text */
+
+  /* Axis titles and labels */
+  --ts-var-axis-title-color: var(--ts-var-root-color);
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-axis-data-label-color: #a3d2ca; /* Soft cyan */
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+
+  /* Menu components */
+  --ts-var-menu-color: var(--ts-var-root-color);
+  --ts-var-menu-background: #16213e;
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: uppercase;
+  --ts-var-menu--hover-background: #53354a;
+
+  /* Dialogs and modals that prompt users to perform an action or enter information */
+  --ts-var-dialog-body-background: #1a1a2e;
+  --ts-var-dialog-body-color: var(--ts-var-root-color);
+  --ts-var-dialog-header-background: #16213e;
+  --ts-var-dialog-header-color: var(--ts-var-root-color);
+  --ts-var-dialog-footer-background: #1a1a2e;
+
+  /* Segment control */
+  --ts-var-segment-control-hover-background: #53354a;
+
+  /* Modular Homepage (New experience) */
+  --ts-var-home-watchlist-selected-text-color: #e94560; /* Neon pink */
+  --ts-var-home-card-color: var(--ts-var-root-color);
+  --ts-var-home-favorite-suggestion-card-text-color: #a3d2ca; /* Soft cyan */
+  --ts-var-home-favorite-suggestion-card-background: #16213e;
+  --ts-var-home-favorite-suggestion-card-icon-color: var(--ts-var-root-color);
+}
