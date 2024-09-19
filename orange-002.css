@@ -33,10 +33,10 @@
 
   /* Buttons */
   /* Application-wide button design for main buttons */
-  --ts-var-button-border-radius: 5px;
+  --ts-var-button-border-radius: 0px; /* Made buttons square */
 
   /* Application-wide button design for smaller buttons */
-  --ts-var-button--icon-border-radius: 5px;
+  --ts-var-button--icon-border-radius: 0px; /* Made icon buttons square */
 
   /* Primary buttons */
   --ts-var-button--primary-color: #FFFFFF; /* White text */
