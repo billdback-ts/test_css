@@ -1,0 +1,54 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #FFFFFF; /* White */
+  --ts-var-root-color: #1D232F;
+  --ts-var-root-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Strong bold font */
+  --ts-var-root-text-transform: uppercase; /* Bold, uppercase for strong presence */
+  --ts-var-root-secondary-color: #FF0000; /* Red for highlights */
+  --ts-var-application-color: #0000FF; /* Blue for main elements */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFFFFF;
+  --ts-var-nav-background: #002868; /* Deep blue from the US flag */
+  --ts-var-search-data-button-background: #FF0000; /* Red button */
+  --ts-var-search-data-button-font-color: #FFFFFF;
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #FFFFFF;
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-background: #B22234; /* Red from the US flag */
+  --ts-var-search-auto-complete-background: #FFFFFF; /* White */
+  --ts-var-search-auto-complete-font-color: #0000FF; /* Blue for text */
+  --ts-var-search-auto-complete-subtext-font-color: #FF0000; /* Red for subtext */
+
+  /* Data and edit panels */
+  --ts-var-answer-data-panel-background-color: #FFFFFF;
+  --ts-var-answer-edit-panel-background-color: #002868; /* Deep blue for panels */
+
+  /* Buttons */
+  --ts-var-button--primary-color: #FFFFFF; /* White text */
+  --ts-var-button--primary-background: #FF0000; /* Red button background */
+  --ts-var-button--primary--hover-background: #B22234; /* Darker red on hover */
+  --ts-var-button--secondary-background: #0000FF; /* Blue for secondary buttons */
+  --ts-var-button--secondary--hover-background: #002868;
+
+  /* Visualizations */
+  --ts-var-viz-title-color: #002868; /* Deep blue */
+  --ts-var-viz-background: #FFFFFF;
+  --ts-var-viz-legend-hover-background: #FF0000;
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #B22234; /* Red edit bar */
+  
+  /* Menu */
+  --ts-var-menu-background: #002868; /* Blue menu background */
+  --ts-var-menu--hover-background: #FF0000; /* Red hover */
+
+  /* Filter chips */
+  --ts-var-chip-background: #B22234; /* Red chips */
+  --ts-var-chip-color: #FFFFFF; /* White text on chips */
+  --ts-var-chip--hover-background: #002868; /* Blue hover */
+
+}
