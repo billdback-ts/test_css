@@ -138,6 +138,11 @@
     color: red important!;
     background-color: --ts-var-root-background;
   }
+
+  .personalized-views-dropdown-header: {
+    color: red important!;
+    background-color: --ts-var-root-background;
+  }
   
   .pinboard-tab-module__tabNameEditor: {
     color: pink important!;
