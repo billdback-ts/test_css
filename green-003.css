@@ -133,4 +133,17 @@
   --ts-var-home-favorite-suggestion-card-text-color: #006400; /* Dark green */
   --ts-var-home-favorite-suggestion-card-background: #F0FFF0; /* Light green */
   --ts-var-home-favorite-suggestion-card-icon-color: #0D4015; /* Dark green */
-}
+
+  .pinboard-tab-module__tabNameContainer: {
+    color: red important!;
+    background-color: --ts-var-root-background;
+  }
+  
+  .pinboard-tab-module__tabNameEditor: {
+    color: pink important!;
+    background-color: --ts-var-root-background;
+  }
+  .pinboard-tab-module__tabHighlightOnSelected: {
+    color: lightred important!;
+    background-color: --ts-var-root-background;
+  }
