@@ -140,7 +140,12 @@
     background-color: --ts-var-root-background;
   }
 
-  .personalized-views-module__dropdownHeader: {
+  /*
+  body > app-controller > blink-app-page > div > div > div > bk-embed > div > div > div:nth-child(1) > div.pinboard-header-module__pinboardHeader.pinboard-header-module__pinboardLbEmbedHeader.layout-module__vertical > div.flex-layout-module__horizontal > 
+div.personalised-views-module__personalisedViewsDropdown > div > div.personalised-views-module__dropdownHeader.select-module__selectHead > p
+  */
+
+  div.personalised-views-module__personalisedViewsDropdown: {
     color: red important!;
     background-color: --ts-var-root-background;
   }
