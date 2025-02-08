@@ -1,0 +1,78 @@
+:root {
+  /* Application-wide */
+  --ts-var-root-background: #F5F5F5; /* Soft light gray */
+  --ts-var-root-color: #1A1A1A; /* Near-black for strong contrast */
+  --ts-var-root-font-family: Roboto, Helvetica, Arial, sans-serif;
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: #4D4D4D; /* Medium-dark gray */
+  --ts-var-application-color: #333333; /* Dark gray application-wide */
+
+  /* Top Navigation */
+  --ts-var-nav-color: #E0E0E0; /* Light gray */
+  --ts-var-nav-background: #1A1A1A; /* Dark background for contrast */
+  --ts-var-search-data-button-background: #B0B0B0; /* Muted gray */
+  --ts-var-search-data-button-font-color: var(--ts-var-root-color);
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search Bar */
+  --ts-var-search-bar-text-font-color: #0D0D0D; /* Almost black */
+  --ts-var-search-bar-background: #D9D9D9; /* Light gray */
+  --ts-var-search-auto-complete-background: #E6E6E6;
+  --ts-var-search-navigation-button-background: #BFBFBF;
+  --ts-var-search-bar-auto-complete-hover-background: #999999;
+  --ts-var-search-auto-complete-font-color: #1A1A1A;
+
+  /* Panels */
+  --ts-var-answer-data-panel-background-color: #EAEAEA;
+  --ts-var-answer-edit-panel-background-color: #333333; /* Dark gray panel */
+
+  /* Buttons */
+  --ts-var-button-border-radius: 4px;
+  --ts-var-button--icon-border-radius: 4px;
+  --ts-var-button--primary-color: #FFFFFF;
+  --ts-var-button--primary-background: #1A1A1A; /* Black primary button */
+  --ts-var-button--primary--hover-background: #4D4D4D; /* Dark gray hover */
+  --ts-var-button--secondary-color: #1A1A1A;
+  --ts-var-button--secondary-background: #D0D0D0;
+  --ts-var-button--secondary--hover-background: #A0A0A0;
+  --ts-var-button--tertiary-color: #1A1A1A;
+  --ts-var-button--tertiary-background: #F5F5F5;
+  --ts-var-button--tertiary--hover-background: #D9D9D9;
+
+  /* Liveboard */
+  --ts-var-liveboard-edit-bar-background: #333333;
+  --ts-var-liveboard-cross-filter-layout-background: #E6E6E6;
+
+  /* Visualizations */
+  --ts-var-viz-title-color: #1A1A1A;
+  --ts-var-viz-description-color: #666666;
+  --ts-var-viz-border-radius: 12px;
+  --ts-var-viz-box-shadow: 1px 2px 4px #999999;
+  --ts-var-viz-background: #F0F0F0;
+  --ts-var-viz-legend-hover-background: #BFBFBF;
+
+  /* Filters */
+  --ts-var-chip-background: #D0D0D0;
+  --ts-var-chip-color: #1A1A1A;
+  --ts-var-chip--hover-background: #A0A0A0;
+  --ts-var-chip--active-background: #666666;
+  --ts-var-chip--active-color: #FFFFFF;
+
+  /* Menus */
+  --ts-var-menu-color: #1A1A1A;
+  --ts-var-menu-background: #E0E0E0;
+  --ts-var-menu--hover-background: #BFBFBF;
+
+  /* Dialogs */
+  --ts-var-dialog-body-background: #F5F5F5;
+  --ts-var-dialog-body-color: #1A1A1A;
+  --ts-var-dialog-header-background: #D9D9D9;
+  --ts-var-dialog-header-color: #1A1A1A;
+
+  /* Additional Styles */
+  --ts-var-segment-control-hover-background: #4D4D4D;
+  --ts-var-home-watchlist-selected-text-color: #666666;
+  --ts-var-home-card-color: #1A1A1A;
+  --ts-var-home-favorite-suggestion-card-text-color: #666666;
+  --ts-var-home-favorite-suggestion-card-background: #EAEAEA;
+}
