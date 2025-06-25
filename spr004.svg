@@ -4,10 +4,10 @@
      <!-- Blue Shape -->
      <path d="M40 60 Q10 90 40 120 L120 200 Q150 230 180 200 Q210 170 180 140 L100 60 Q70 30 40 60 Z"
            fill="#4BA3DD"
-           transform="translate(-10,-30) scale(0.05)" />
+           transform="scale(0.10)" />
      <!-- Teal Shape -->
      <path d="M100 60 Q130 30 160 60 Q190 90 160 120 Q130 150 100 120 Q70 90 100 60 Z"
            fill="#54DED9"
-           transform="translate(-10,-30) scale(0.05)" />
+           transform="scale(0.10)" />
    </symbol>
 </svg>
