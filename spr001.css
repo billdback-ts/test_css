@@ -1,0 +1,40 @@
+:root {
+  --ts-var-root-background: #ffffff;
+  --ts-var-root-color: #49505a;
+  --ts-var-root-font-family: Poppins, Inter, Arial, sans-serif;
+  --ts-var-nav-background: #ffffff;
+  --ts-var-nav-color: #49505a;
+  --ts-var-menu-background: #243447;
+  --ts-var-menu-color: #ffffff;
+  --ts-var-menu-font-family: Inter, Arial, sans-serif;
+  --ts-var-menu--hover-background: #36a2ea;
+  --ts-var-menu-selected-text-color: #ffffff;
+  --ts-var-list-selected-background: #36a2ea;
+  --ts-var-list-hover-background: #36a2ea;
+  --ts-var-viz-title-color: #49505a;
+  --ts-var-viz-title-font-family: Inter, Arial, sans-serif;
+  --ts-var-viz-background: #f9f7f7;
+  --ts-var-button--primary-background: #36a2ea;
+  --ts-var-button--primary-color: #ffffff;
+  --ts-var-button--primary--hover-background: #2089c3;
+  --ts-var-button-border-radius: 5px;
+  --ts-var-chip-background: #eaf6ff;
+  --ts-var-chip-color: #36a2ea;
+  --ts-var-chip-border-radius: 5px;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+}
